@@ -1,11 +1,13 @@
 * {
 
-  font-family: "Poppins", sans-serif;}
+  font-family: "Poppins", sans-serif;
+}
 
 body{
   background-image:linear-gradient(#E6E6FA,#B8E7FA);
   width: 1440px;
   height: 3220px;
+  margin: 0 auto;
 }  
 
 .Heading{
@@ -27,7 +29,7 @@ body{
   color:#FFA500 ;
 }
 .BTN{
-  background-image: linear-gradient(#FFA500,#FFD447,#FFA500);
+  background-image: linear-gradient(to right,#FFA500,#FFD447);
   border: 0px;
   border-radius: 10px;
   padding: 17px 29.37px;
@@ -71,7 +73,7 @@ font-size: 22px;
 }
 .Con2p2{
   margin-top: 48px;
-  background-color:#FFFFFF ;
+  background-color:#ffffff ;
   display: flex;
   padding: 48px;
 }
@@ -81,7 +83,8 @@ font-size: 22px;
   justify-content:center;
   
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  
 }
 
 .Con2p2p1h2{
@@ -100,13 +103,11 @@ font-size: 22px;
 
 
 .Con3{
+  margin-top: -50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin:90px 100px;
-  max-width: 1140px;
-  height: 792px;
 }
 
 .ConP1{
@@ -121,22 +122,24 @@ font-size: 22px;
 }
 
 .Con3P2{
-  margin-top: 48px;
-  padding: 32px;
+  padding: 150px;
+  margin-top: -60px;
+  width: 1140px;
+  height: 560px;
+  justify-content: center;
 }
 
 .youtube{
   margin-top: 3rem;
   padding: 1.25rem;
   border: 1px solid rgba(184, 172, 172, 0.575);
+  border-radius: 16px;
 }
 iframe{
   border-radius: 16px;
-}
-iframe {
   aspect-ratio: 16/9;
- width: 1024px;
- height: 556px;
+  width: 1024px;
+  height: 556px;
 }
 
 .Con4{
@@ -161,7 +164,7 @@ iframe {
 }
 
 .Con4P2{
- padding: 50px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -169,22 +172,24 @@ iframe {
 .Con4html,.Con4Css,.Con4Tailwind{
   width: 300px;
   height: 200px;
-  padding: 40px 40px #000000;
-  border: 1px solid ;
+  border: 0px solid ;
   box-shadow: 0px 4px 40px #00000050  ;  
   border-radius: 16px;
   background-image: linear-gradient(#E6EDF9,#9DE5FF);
+  padding: 20px 20px;
 }
 
 
 .HTML ,.CSS,.TAILWIND{
-  padding: 20px;
+  padding: 15px;
 }
 
 .html,.css,.tailwind{
   width: 40px;
   height: 40px;
+  padding: 8px;
 }
+
 
 .Con5{
   max-width: 1440px;
@@ -192,8 +197,8 @@ iframe {
   padding: 32px 150px;
   background-color: white;
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: space-between;
+  text-align: justify;
 }
 
 .F1{
